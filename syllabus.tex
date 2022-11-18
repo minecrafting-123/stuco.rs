@@ -27,13 +27,13 @@
 }
 
 \newcommand{\shortcoursename}{STUCO: RUSTLANG}
-\newcommand{\courselocation}{PH A18B}
-\newcommand{\meetingstarttime}{18:40}
-\newcommand{\meetingendtime}{19:30}
+\newcommand{\courselocation}{GHC 5222}
+\newcommand{\meetingstarttime}{19:00}
+\newcommand{\meetingendtime}{19:50}
 \newcommand{\meetingdays}{Wednesday}
-\newcommand{\longsemester}{Fall 2022}
-\newcommand{\shortsemester}{F22}
-\newcommand{\academicyear}{2021-22}
+\newcommand{\longsemester}{Spring 2023}
+\newcommand{\shortsemester}{F23}
+\newcommand{\academicyear}{2022-23}
 \newcommand{\deptcode}{98}
 \newcommand{\coursecode}{008}
 \newcommand{\fullcoursecode}{\deptcode-\coursecode}
@@ -354,7 +354,7 @@
 
 \begin{tabular*}{.93\textwidth}{@{\extracolsep{\fill}}ll}
     \toprule
-    Office Hours: 1-2 hours weekly TBD & Web: \url{https://rust-stuco.github.io} \\
+    Office Hours: by appointment & Web: \url{https://rust-stuco.github.io} \\
     Time: \meetingdays\ \meetingstarttime-\meetingendtime & Location: \courselocation \\
     \bottomrule
 \end{tabular*}
@@ -449,7 +449,7 @@ Grades will be assigned as follows, based on the number of points earned.
 
 Attendance is mandatory. As per StuCo guidelines, if you have three unexcused
 absences, you will automatically fail this course. We will take attendance with
-a sign-in sheet.
+a sign-in sheet or an interactive activity.
 
 If you need to miss a session for a reason we can reasonably excuse contact us
 and we will determine an appropriate alternative so you don't miss out on that
@@ -504,33 +504,33 @@ proposals.
 \begin{longtable}{rp{.5\textwidth}@{\hskip .05\textwidth}p{.3\textwidth}}
     Date        & Topic(s)                          & Assignments Released  \\
     \toprule
-    2022-08-31  & Tour of Rust; Motivation;
+    2023-01-18  & Tour of Rust; Motivation;
                   \code{struct}s, \code{enum}s, basic syntax
                 & Rust installation and setup                               \\
-    2022-09-07  & Pattern matching, \code{impl} blocks; introduction to
+    2023-01-25  & Pattern matching, \code{impl} blocks; introduction to
                   ownership, lifetimes and the borrow system
                 & PPM Parsing                                               \\
-    2022-09-14  & Function types, closures; more advanced ownership semantics
+    2023-02-01  & Function types, closures; more advanced ownership semantics
                 & Sudoku Solver                                             \\
-    2022-09-21  & Polymorphism, bounded (traits) and unbounded; trait objects
+    2023-02-08  & Polymorphism, bounded (traits) and unbounded; trait objects
                   and dynamic dispatch
                 & Parsing Combinator Library                                \\
-    2022-09-28  & Livecoding a library for text iteration: applying lifetimes,
+    2023-02-15  & Livecoding a library for text iteration: applying lifetimes,
                   polymorphism, traits.
                 & Midterm                                                   \\
-    2022-10-05  & The standard library and string handling
+    2023-02-22  & The standard library and string handling
                 & \texttt{egrep} clone                                      \\
-    2022-10-12  & Error handling: \code{panic!}, \code{?}, testing: unit tests,
+    2023-03-01  & Error handling: \code{panic!}, \code{?}, testing: unit tests,
                   property based testing
                   (\href{https://github.com/AltSysrq/proptest}{\textit{proptest}})
                   and fuzzing
                   (\href{https://github.com/rust-fuzz/cargo-fuzz}{\textit{cargo-fuzz}})
                 & Note: all prior released assignments due at this point    \\
-    2022-10-19  & Fall Break (no class)
+    2023-03-08  & Spring Break (no class)
                 & ---                                                       \\
-    2022-10-26  & Macros: built-in, declarative, procedural
-                & \code{#[derive(Map)]}                                     \\
-    2022-11-02  & \code{unsafe}: \begin{itemize}
+    2023-03-15  & Macros: built-in, declarative, procedural
+                & \code{#[derive(Map)]} \textit{(optional)}                 \\
+    2023-03-22  & \code{unsafe}: \begin{itemize}
                         \item Why have \code{unsafe}?
                         \item Raw pointers
                         \item \code{UnsafeCell}
@@ -541,19 +541,19 @@ proposals.
                             \href{https://github.com/dtolnay/cxx}{\textit{cxx}})
                     \end{itemize}
                 & ---                                                       \\
-    2022-11-09  & Concurrency/Parallelism 1: threads, mutexes,
+    2023-03-29  & Concurrency/Parallelism 1: threads, mutexes,
                   \code{Sync}, \code{Send}
                 & ---                                                       \\
-    2022-11-16  & Thanksgiving Break (no class)
-                & ---                                                       \\
-    2022-11-23  & Concurrency/Parallelism 2: \code{Pin}, \code{async},
+    2023-04-05  & Concurrency/Parallelism 2: \code{Pin}, \code{async},
                   \code{await}, futures, streams, polling,
                   \href{https://tokio.rs/}{\textit{tokio}}
                 & ---                                                       \\
-    2022-11-30  & Concurrency/Parallelism 3: atomic variables, memory orderings
+    2023-04-12  & Concurrency/Parallelism 3: atomic variables, memory orderings
                   and consistency, cmpxchg/cas and ll/sc
                 & ---                                                       \\
-    2022-12-07  & Project presentations
+    2023-04-19  & Advanced Topics or Guest Lecture (TBA)
+                & ---                                                       \\
+    2023-04-26  & Project presentations
                 & Note: all assignments due by this point                   \\
     \bottomrule
 \end{longtable}
@@ -601,20 +601,22 @@ the Office of Disability Resources, I encourage you to contact them at
 
 \subsection*{Statement on student wellness}
 
-% TODO: update for in person
-This semester is unlike any other. We are all under a lot of stress and
-uncertainty at this time. Attending Zoom classes all day can take its toll on
-our mental health. Make sure to move regularly, eat well, and reach out to your
-support system or Judy Hallinen
-[\href{mailto:hallinen@cmu.edu}{\texttt{hallinen@cmu.edu}}] if you need to. We
-can all benefit from support in times of stress, and this semester is no
-exception. If you or anyone you know experiences any academic stress, difficult
-life events, or feelings like anxiety or depression, we strongly encourage you
-to seek support. Counseling and Psychological Services (CaPS) is here to help:
-call 412-268-2922 and visit their website at
-\url{http://www.cmu.edu/counseling/}. Consider reaching out to a friend, faculty
-or family member you trust for help getting connected to the support that can
-help.
+Take care of yourself.  Do your best to maintain a healthy lifestyle this
+semester by eating well, exercising, avoiding drugs and alcohol, getting enough
+sleep and taking some time to relax. This will help you achieve your goals and
+cope with stress.
+
+All of us benefit from support during times of struggle. There are many helpful
+resources available on campus and an important part of the college experience is
+learning how to ask for help. Asking for support sooner rather than later is
+almost always helpful.
+
+If you or anyone you know experiences any academic stress, difficult life
+events, or feelings like anxiety or depression, we strongly encourage you to
+seek support. Counseling and Psychological Services (CaPS) is here to help: call
+412-268-2922 and visit their website at \url{http://www.cmu.edu/counseling/}.
+Consider reaching out to a friend, faculty or family member you trust for help
+getting connected to the support that can help.
 
 \subsection*{Statement on Diversity, Equity and Inclusion}
 
