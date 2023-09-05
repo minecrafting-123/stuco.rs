@@ -7,7 +7,7 @@
     - Error propogations with `?`
 - Trait basics (15 min)
 - Derivable Traits (10 min)
-- OOP discussion (Chapter 17)? (remaining time)
+- Software Architecture with Traits (5 min)
 
 ### Extra Material
 - Rust Book Chapter 10.1 and 10.2

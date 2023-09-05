@@ -1,85 +1,66 @@
-# Rust Stuco S24 Initial Plan
+# Rust Stuco S24 Outline
 
-Spring 2024 tentative syllabus
+</br>
 
-# Materials:
+# Course Materials:
 - Main Source: [The Rust Programming Langauge (The Rust Book)](https://doc.rust-lang.org/book/)
 - [Rust By Example](https://doc.rust-lang.org/rust-by-example/index.html)
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/)
 - [The Rust Reference](https://doc.rust-lang.org/reference/index.html)
-- Rust for Rustaceans - pdf on oreilly??
-- Exercism??
+- Rust for Rustaceans - PDF available on O'Reilly for CMU students
+- [Exercism](https://exercism.org/tracks/rust)
+- [`rustlings`](https://github.com/rust-lang/rustlings)
 
+</br>
 
 # Schedule
 
 ## Week 1: Introduction
-- Why Rust? (15 min)
-- Cargo Basics (5 min)
-- Syntax (30 min)
+- Why Rust?
+- Cargo basics
+- Rust Syntax
 
 
 ## Week 2: Ownership
-- Ownership (28 min)
-- References and Borrowing (14 min)
-- Slices (8 min)
+- Ownership
+- References and Borrowing
+- Slices
 
 
 ## Week 3: Structs and Enums
-- Structs (10 min)
-- `impl` Structs and Methods (10 min)
-- Enum basics (30 min)
+- Structs
+- Enums
 
 
 ## Week 4: Standard Collections and Generics
-- Vectors (8 min)
-- Strings (10 min)
-- Maps (15 min)
-- Generics basics (17 min)
+- Vectors
+- Strings
+- Maps
+- Generics
 
 
 ## Week 5: Error handling and Traits
-- Error Handling (20 min)
-- Trait basics (15 min)
-- Derivable Traits (10 min)
-- OOP discussion (Chapter 17)??? (remaining time) TODO
+- Error Handling
+- Traits
 
 
 ## Week 6: Cargo, Modules, Crates, and Testing
-- File system (20 min)
-- Testing (30 min)
+- Crates and Modules file system layout
+- Unit Testing and Integration Testing
 
+</br>
+</br>
 
 # TODO
 
 ## Week 7: Lifetimes
-Chapter 10.3 + probably need more
+Chapter 10.3 + probably need way more
 
 - Very important, need to get this right
 
 
 ## Week 8: Iterators, Closures, and Advanced Functional
 Chapter 13
-
-
-# Remaining topics???
-- Trait Objects
-- Smart Pointers
-- Fearless Concurrency
-    - Locking
-    - Message Passing
-- Async/Await
-- Macros
-- Unsafe
-    - FFI
-- API design / Advanced Types?
-- Essential Rust Crates
-    - `anyhow`
-    - `serde`
-    - `chrono`
-    - `tokio`
-    - `log`
-    - `tracing`
 
 
 ## Week 9: Smart Pointers and Trait Objects
@@ -100,18 +81,29 @@ Chapter 15
 - Object safety
 
 
-## Week 10: Fearless Concurrency and Async/Await
-Chapter 16
-
-
-## Week 11: Macros and Unsafe
-Chapters 17-19
-
+# Remaining topics???
+- Fearless Concurrency
+    - Locking
+    - Message Passing
+- Async/Await
 - Macros
 - Unsafe
     - FFI
+- API design / Advanced Types?
+- Essential Rust Crates
+    - `no_std`
+        - `rand`
+        - `time`
+    - `std`
+        - `log`
+        - `tracing`
+        - `anyhow`
+        - `clap`
+        - `rayon`
+    - Frameworks
+        - `serde`
+        - `criterion`
+        - `tokio`
 
 
-## Week 12: Final Project
-- Essential Rust Crates?
-- API design
+
