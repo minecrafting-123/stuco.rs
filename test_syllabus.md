@@ -159,6 +159,18 @@ Chapter 13
 
 
 
+# Remaining topics???
+- Trait Objects
+- Smart Pointers
+- Fearless Concurrency
+  - Locking
+  - Message Passing
+- Macros
+- Unsafe
+  - FFI
+- API design / Advanced Types?
+- Essential Rust Crates
+
 
 ## Week 9: Smart Pointers and Trait Objects (TODO)
 Chapter 15
@@ -174,6 +186,8 @@ Chapter 15
   - Dynamic dispatch with `dyn`
   - Vtable
   - Probably need more
+- Dynamically Sized Types
+- Object safety
 
 
 
@@ -192,5 +206,5 @@ Chapters 17-19
 
 
 ## Week 12: Final Project (TODO)
-
+- Essential Rust Crates?
 - API design
