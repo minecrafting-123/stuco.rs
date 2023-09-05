@@ -170,6 +170,12 @@ Chapter 13
   - FFI
 - API design / Advanced Types?
 - Essential Rust Crates
+  - `anyhow`
+  - `serde`
+  - `chrono`
+  - `tokio`
+  - `log`
+  - `tracing`
 
 
 ## Week 9: Smart Pointers and Trait Objects (TODO)
