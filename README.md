@@ -28,6 +28,7 @@
 
 
 ## Week 3: Structs and Enums
+- Ownership review
 - Structs
 - Enums
 
