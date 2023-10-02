@@ -10,10 +10,16 @@
         - Compound types
     - Functions
     - Control Flow
+- Installing Rust and `rustup` (extra time)
 
 ### Extra Material
-- Rust Book Chapters 1-3
+- The Rust Lang Book Chapters 1-3
+- `rustlings` exercises
+    - `variables`
+    - `functions`
+    - `if`
+    - `primitive_types`
 
 ### Assignment
-- Guessing game plus?
-- 112 HW1 problems
+- `rustlings` selected exercises
+- Basic functions and implementations

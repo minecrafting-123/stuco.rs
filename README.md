@@ -4,6 +4,7 @@
 
 # Course Materials:
 - Main Source: [The Rust Programming Langauge (The Rust Book)](https://doc.rust-lang.org/book/)
+- The Rust Lang Book [in video format](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) on YouTube
 - [Rust By Example](https://doc.rust-lang.org/rust-by-example/index.html)
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/)
 - [The Rust Reference](https://doc.rust-lang.org/reference/index.html)
@@ -19,6 +20,7 @@
 - Why Rust?
 - Cargo basics
 - Rust Syntax
+- Installing Rust
 
 
 ## Week 2: Ownership

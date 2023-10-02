@@ -2,14 +2,14 @@
 
 ### Lecture
 - Ownership (30 min)
-    - Move semantics
+    - Ownership Rules
     - Scope
-    - Why Ownership?
-        - `String` type basics
-        - Memory and Allocation
-    - Copy and Clone Traits
+    - `String` type basics
+    - Memory and Allocation
+    - `Copy` and `Clone` traits
+    - Ownership with functions and return values
 - References and Borrowing (14 min)
-    - Reference vs address of
+    - Reference vs Address (`&`)
     - Mutable references
     - Dangling references and data racing
     - Automatic referencing and dereferencing sneak peek
@@ -19,8 +19,10 @@
 
 ### Extra Material
 - Rust Book Chapter 4
+    - YouTube [video](https://www.youtube.com/watch?v=VFIOSWy93H0)
 
 ### Assignment
-- Move semantics
-- String stuff (rustlings for inspiration?)
-- Something else
+- `rustlings` exercises
+    - `move_semantics`
+    - `strings`
+- TODO need something else
