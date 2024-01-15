@@ -27,7 +27,7 @@
 }
 
 \newcommand{\shortcoursename}{STUCO: RUSTLANG}
-\newcommand{\courselocation}{TBD}
+\newcommand{\courselocation}{BH A36}
 \newcommand{\meetingstarttime}{7:00}
 \newcommand{\meetingendtime}{7:50}
 \newcommand{\meetingdays}{Tuesday}
@@ -356,7 +356,7 @@
 \begin{tabular*}{.93\textwidth}{@{\extracolsep{\fill}}ll}
     \toprule
     Office Hours: by appointment & Web: \url{https://rust-stuco.github.io} \\
-    Time: \meetingdays\ \meetingstarttime-\meetingendtime & Location: \courselocation \\
+    Time: \meetingdays\ \meetingstarttime-\meetingendtime pm & Location: \courselocation \\
     \bottomrule
 \end{tabular*}
 
@@ -369,11 +369,12 @@
 This course is an introduction to the Rust programming language, a memory-safe
 systems programming language. We will cover a range of topics, from the Rust borrow checker
 to parallelism and the \code{unsafe} keyword.
-Outside of class, there will be basic programming exercises, and during the second half of
+Outside of lecture, there will be basic programming exercises, and during the second half of
 the semester there will be a small student-defined project.
 
 This course is taught in Rust, and you are not expected to have any prior exposure to Rust.
-However, this course assumes knowledge of topics covered by \textbf{15--122}. 
+However, this course assumes knowledge of topics covered by \textbf{15--122},
+or equivalent experience with the C programming language. 
 Knowledge of functional programming idioms taught in \textbf{15--150}, 
 as well as knowledge of systems programming taught in \textbf{15--213} is a bonus, 
 but not strictly required. 
@@ -382,26 +383,29 @@ but not strictly required.
 
 \section*{Learning Objectives}
 
-Students in this course will be able to read, write, and reason about Rust code which includes:
+Students in this course will be able to read, write,
+and reason about Rust code which includes:
 
 \begin{itemize}
     \item Core Rust syntax such as \code{struct}, \code{enum}, \code{impl}
         blocks, pattern matching, polymorphism, and traits
-    \item Common Rust types such as \code{String}, \code{\&str}, 
-        \code{Option<T>}, \code{Result<T, E>}, and \code{Vec<T>}
+    \item Common Rust types such as \code{Vec<T>}, \code{String}, \code{\&str}, 
+        \code{Option<T>}, and \code{Result<T, E>}
     \item Use of the borrow checker through ownership and \code{move} semantics
-    \item Advanced Rust features such as iterators, lifetimes, closures, and smart pointers.
-    \item Advanced Rust patterns such as parallelism, concurrency, macros, and \code{unsafe}.
+    \item Advanced Rust features such as iterators, lifetimes, closures, and smart pointers
+    \item Advanced Rust patterns such as parallelism, concurrency, macros, and \code{unsafe}
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section*{Additional Materials}
 
-Access to a computer able to run \texttt{rustc} (the Rust compiler) and Cargo
+Access to a computer able to run \texttt{rustc} (the Rust compiler) and \texttt{cargo}
 (the Rust package manager) is required for this course. 
 If you are on stable versions of Mac, Windows, or Linux, you should be fine.
-We'll go over how to set these up in class.
+We'll go over how to set these up in class with \texttt{rustup},
+Rust's official tool chain manager, or you can follow the steps from
+the official Rust \href{https://www.rust-lang.org/tools/install}{\color{blue}{website}}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -418,15 +422,15 @@ We'll go over how to set these up in class.
     Week 2      & Ownership \\
     Week 3      & Structs \& Enums \\
     Week 4      & Standard Collections and Generics \\
-    Week 5      & Error handling and Traits \\
-    Week 6      & Cargo, Modules, Traits, and Testing \\
+    Week 5      & Error Handling and Traits \\
+    Week 6      & Cargo, Modules, Crates, and Testing \\
     Week 7      & Lifetimes \\
     Week 8      & Iterators, Closures, and Advanced Functional Topics \\
-    Week 9      & Smart Pointers and Trait Objects \\
-    Week 10     & Parallelism \\
-    Week 11     & Concurrency \\
-    Week 12     & Macros \\
-    Week 13     & \code{unsafe} \\
+    Week 9      & \code{Box<T>} and Trait Objects \\
+    Week 10     & Smart Pointers and \code{unsafe} \\
+    Week 11     & Parallelism \\
+    Week 12     & Concurrency \\
+    Week 13     & Macros \\
     \bottomrule
 \end{longtable}
 
@@ -434,7 +438,8 @@ We'll go over how to set these up in class.
 
 \section*{Attendance Policy}
 
-Attendance is mandatory, as well as 50\% of your grade. \textbf{As per StuCo guidelines, if you have three
+Attendance is mandatory, as well as 50\% of your grade.
+\textbf{As per StuCo guidelines, if you have three
 unexcused absences, you will automatically fail this course}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -482,12 +487,11 @@ week's content.
 \subsection*{Homework}
  
 There will be weekly homeworks where you will write Rust code applying topics we've
-discussed in lecture, and 
-
-Homeworks are designed to take no more than 30-45 minutes per week. If they take longer than this, please tell us!
+discussed in lecture.
+Homeworks are designed to take around an hour per week. If they take longer than this, please tell us!
 \textbf{All homeworks are due the week after they are released}.
 
-We expect you to turn in a submission for every homework, but they are graded
+We expect you to turn in a submission for every homework, but they are mainly graded
 for effort, not correctness. If you put in a good faith effort to complete the homework
 and do not manage fully complete it, you will still receive credit.
 
@@ -496,7 +500,7 @@ and do not manage fully complete it, you will still receive credit.
 \subsection*{Late work}
 
 Students have 7 late days to be used for any assignment. 
-Under special circumstances, if you let us know before hand, you can get more late days.
+Under special circumstances, if you let us know in advance, you can get more late days.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
