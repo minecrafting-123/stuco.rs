@@ -20,13 +20,6 @@ jobs:
       - name: Add wasm target
         run: rustup target add wasm32-unknown-unknown
 
-      # Needed for wasm-opt
-      - name: Install binaryen
-        uses: sigoden/install-binary@v1
-        with:
-          repo: WebAssembly/binaryen
-          name: wasm-opt
-
       # Needed to compile the syllabus
       - name: Install typst
         uses: typst-community/setup-typst@v4

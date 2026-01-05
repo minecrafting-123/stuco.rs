@@ -13,3 +13,5 @@ dioxus = { version = "0.7.1", features = ["router"] }
 default = ["web"]
 web = ["dioxus/web"]
 
+[profile.release]
+strip = "debuginfo"
