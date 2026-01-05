@@ -22,7 +22,11 @@ jobs:
 
       # Needed for wasm-opt
       - name: Install binaryen
-        run: sudo apt-get update && sudo apt-get install -y binaryen
+        uses: jaxxstorm/action-install-gh-release@v2
+        with:
+          repo: WebAssembly/binaryen
+          binaries-location: bin
+          chmod: 0755
 
       # Needed to compile the syllabus
       - name: Install typst
