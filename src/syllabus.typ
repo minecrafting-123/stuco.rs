@@ -11,6 +11,10 @@
   ("Anish Pallati", "apallati@andrew.cmu.edu"),
 )
 
+#let tas = (
+  ("Max Wen", "maxwen@andrew.cmu.edu"),
+)
+
 // Document setup
 #set document(
   title: "98-008: Student Taught Courses (StuCo): Intro to Rust Lang",
@@ -50,16 +54,32 @@
     #text(size: 10pt, style: "italic")[Updated #datetime.today().display("[month repr:long] [day], [year]")]
 
     #table(
-      columns: 2,
-      align: (right, left),
+      columns: 4,
+      align: (right, center, left, left),
       stroke: none,
       inset: 3pt,
+
+      table.cell(rowspan: instructors.len(), align: right + horizon)[#text(weight: "bold")[Instructors]],
+      table.cell(rowspan: instructors.len(), align: center + horizon)[
+        $lr(brace.l, size: #(instructors.len() * 1em))$
+      ],
       ..instructors
         .map(((name, email)) => (
           [#name],
           [#styled-link("mailto:" + email)[#email]],
         ))
-        .flatten()
+        .flatten(),
+
+      table.cell(rowspan: tas.len(), align: right + horizon)[#text(weight: "bold")[TAs]],
+      table.cell(rowspan: tas.len(), align: center + horizon)[
+        $lr(brace.l, size: #(tas.len() * 1em))$
+      ],
+      ..tas
+        .map(((name, email)) => (
+          [#name],
+          [#styled-link("mailto:" + email)[#email]],
+        ))
+        .flatten(),
     )
 
     *#long-semester*
@@ -147,7 +167,7 @@ You can follow the steps from the official Rust #unstyled-link("https://www.rust
   This means that you can miss _up to_ 2 lectures at most.
 ]
 
-Please let us know if you are going to miss a lecture in advance (at least 6 hours before)! All it takes is a private post on Piazza.
+Please let us know if you are going to miss a lecture in advance (at least 2 hours before)! All it takes is a private post on Piazza.
 
 Note that you should *not* email us for an excusal, as emails can be lost / forgotten quite easily. Simply ask us on Piazza.
 
@@ -170,7 +190,7 @@ In order to pass this course (grade letter P or S), you must accumulate 1000 poi
     stroke: none,
     table.header([Grade], [Points]),
     table.hline(stroke: 1pt),
-    [NP], [0-1000],
+    [NP], [0-999],
     [P (or S)], [1000+],
     table.hline(stroke: 1pt),
   )
