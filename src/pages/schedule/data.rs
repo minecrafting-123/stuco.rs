@@ -1,22 +1,22 @@
 use schemars::JsonSchema;
 use serde::Deserialize;
 
-#[derive(Debug, Deserialize, JsonSchema)]
+#[derive(Debug, Deserialize, JsonSchema, PartialEq)]
 pub struct Week {
     pub title: String,
     pub slides: String,
-    rustlings: Option<Vec<String>>,
-    book_chapters: Option<Vec<String>>,
-    videos: Option<Vec<VideoGroup>>,
+    pub rustlings: Option<Vec<String>>,
+    pub book_chapters: Option<Vec<String>>,
+    pub videos: Option<Vec<VideoGroup>>,
     pub homework: Option<Homework>,
     pub homework_ec: Option<Homework>,
     extras: Option<Vec<Extra>>,
 }
 
-#[derive(Debug, Deserialize, JsonSchema)]
-struct VideoGroup {
-    title: String,
-    items: Vec<String>,
+#[derive(Debug, Deserialize, JsonSchema, PartialEq)]
+pub struct VideoGroup {
+    pub title: String,
+    pub items: Vec<String>,
 }
 
 #[derive(Debug, Deserialize, JsonSchema, PartialEq)]
@@ -25,7 +25,7 @@ pub struct Homework {
     pub slug: Option<String>,
 }
 
-#[derive(Debug, Deserialize, JsonSchema)]
+#[derive(Debug, Deserialize, JsonSchema, PartialEq)]
 struct Extra {
     title: String,
     url: String,

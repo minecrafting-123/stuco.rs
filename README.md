@@ -22,3 +22,5 @@ Run the following command in the root of your project:
 ```bash
 dx serve
 ```
+
+The first time you run this, it will take longer since it needs to build `public/hw/` directory from `homeworks/`.

@@ -1,3 +1,4 @@
+use ignore::Walk;
 use std::{
     fs::{self, File},
     io::{self, Write},
@@ -6,9 +7,21 @@ use std::{
 };
 use zip::{ZipWriter, write::SimpleFileOptions};
 
+fn watch_homeworks() {
+    for entry in Walk::new("homeworks").flatten() {
+        let path = entry.path();
+        if path.is_file() {
+            println!("cargo:rerun-if-changed={}", path.display());
+        }
+    }
+}
+
 fn main() {
     println!("cargo:rerun-if-changed=src/syllabus.typ");
-    println!("cargo:rerun-if-changed=homeworks");
+
+    // We can't just use "cargo:rerun-if-changed=homeworks" because we'd be
+    // recursively rebuilding over and over due to Cargo.lock and handin.zip
+    watch_homeworks();
 
     // Create public dir if it doesn't exist
     std::fs::create_dir_all("public").ok();

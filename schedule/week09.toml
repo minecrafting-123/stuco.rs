@@ -2,9 +2,5 @@ title = "Ownership (Part 2)"
 slides = "09_ownership_p2"
 
 [[extras]]
-title = "The Rust Book (Brown University Edition)"
-url = "https://rust-book.cs.brown.edu/"
-
-[[extras]]
 title = "Aquascope: Visualizing Rust Permissions"
 url = "https://cel.cs.brown.edu/aquascope/"
