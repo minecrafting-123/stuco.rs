@@ -1,32 +1,10 @@
-title = "Lifetimes"
-slides = "09_lifetimes"
-rustlings = ["lifetimes"]
-book_chapters = ["ch10-03-lifetime-syntax"]
-
-[[videos]]
-title = "The Rust Programming Language Book"
-items = [
-    "https://www.youtube.com/watch?v=juIINGuZyBc&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
-]
-
-[[videos]]
-title = "Crust of Rust"
-items = [
-    "https://www.youtube.com/watch?v=rAl-9HwD858&list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa",
-]
-
-[homework]
-name = "SplitLab"
-slug = "splitlab"
+title = "Ownership (Part 2)"
+slides = "09_ownership_p2"
 
 [[extras]]
-title = "What is 'a lifetime?"
-url = "https://www.youtube.com/watch?v=gRAVZv7V91Q"
+title = "The Rust Book (Brown University Edition)"
+url = "https://rust-book.cs.brown.edu/"
 
 [[extras]]
-title = "Lifetimes (Rustonomicon)"
-url = "https://doc.rust-lang.org/nomicon/lifetimes.html"
-
-[[extras]]
-title = "Lifetimes (Rust by Example)"
-url = "https://doc.rust-lang.org/rust-by-example/scope/lifetime.html"
+title = "Aquascope: Visualizing Rust Permissions"
+url = "https://cel.cs.brown.edu/aquascope/"

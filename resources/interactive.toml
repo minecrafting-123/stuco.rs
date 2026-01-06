@@ -29,3 +29,7 @@ author = "dtolnay"
 [[resources]]
 title = "Algorithms in Rust"
 url = "https://github.com/TheAlgorithms/Rust"
+
+[[resources]]
+title = "Aquascope: Visualizing Rust Permissions"
+url = "https://cel.cs.brown.edu/aquascope/"

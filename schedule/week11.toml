@@ -1,32 +1,43 @@
-title = "Unsafe"
-slides = "11_unsafe"
-book_chapters = ["ch20-01-unsafe-rust"]
+title = "Smart Pointers and Trait Objects"
+slides = "11_smart_pointers"
+rustlings = ["smart_pointers"]
+book_chapters = ["ch15-00-smart-pointers"]
 
 [[videos]]
 title = "The Rust Programming Language Book"
 items = [
-    "https://www.youtube.com/watch?v=9E2v8pCUc48&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=m76sRj2VgGo&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=dYEC6NElVOg&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=RPWZcTYBS4k&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=M9Owp3iLigg&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=77aRH6YBKyY&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=pIVZRDFAUyc&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
 ]
 
 [[videos]]
 title = "Crust of Rust"
 items = [
     "https://www.youtube.com/watch?v=8O0Nt9qY_vo&list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa",
-    "https://www.youtube.com/watch?v=pePqWoTnSmQ&list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa",
+    "https://www.youtube.com/watch?v=xcygqF5LVmM&list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa",
 ]
 
 [[videos]]
 title = "Code to the Moon"
 items = [
-    "https://www.youtube.com/watch?v=HwupNf9iCJk&list=PL2q9pua8FpiUiCv6KmWWhR5Bh8GfElo98",
+    "https://www.youtube.com/watch?v=CTTiaOo4cbY&list=PL2q9pua8FpiUiCv6KmWWhR5Bh8GfElo98",
+    "https://www.youtube.com/watch?v=CHRNj5oubwc&list=PL2q9pua8FpiUiCv6KmWWhR5Bh8GfElo98",
 ]
 
 [[videos]]
-title = "Low Level Learning Rust Talks"
+title = "Idiomatic Rust"
 items = [
-    "https://www.youtube.com/watch?v=z_RekEdKcfk&list=PLc7W4b0WHTAUAEAguiqpNa5H0QqXJIJI6",
+    "https://www.youtube.com/watch?v=hBA00Tx_dIM&list=PLai5B987bZ9A5MO1oY8uihDWFC5DsdJZq",
 ]
 
 [[extras]]
-title = "The Rustonomicon"
-url = "https://doc.rust-lang.org/nomicon/"
+title = "Rust Memory Containers"
+url = "https://github.com/usagi/rust-memory-container-cs"
+
+[[extras]]
+title = "Container Cheat Sheet"
+url = "https://docs.google.com/presentation/d/1q-c7UAyrUlM-eZyTo1pd8SZ0qwA_wYxmPZVOQkoDmH4/edit#slide=id.p"

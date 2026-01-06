@@ -46,6 +46,7 @@ pub fn load_weeks() -> Vec<Week> {
         include_str!("../../../schedule/week11.toml"),
         include_str!("../../../schedule/week12.toml"),
         include_str!("../../../schedule/week13.toml"),
+        include_str!("../../../schedule/week14.toml"),
     ];
 
     files

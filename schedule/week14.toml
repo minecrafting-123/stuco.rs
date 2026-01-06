@@ -1,0 +1,24 @@
+title = "Concurrency"
+slides = "14_concurrency"
+
+[[videos]]
+title = "Crust of Rust"
+items = [
+    "https://www.youtube.com/watch?v=ThjvMReOXYM&list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa",
+]
+
+[[videos]]
+title = "Low Level Learning Rust Talks"
+items = [
+    "https://www.youtube.com/watch?v=fHz_Li7HqcI&list=PLc7W4b0WHTAUAEAguiqpNa5H0QqXJIJI6",
+]
+
+[[videos]]
+title = "No Boilerplate Rust Talks"
+items = [
+    "https://www.youtube.com/watch?v=AiSl4vf40WU&list=PLZaoyhMXgBzoM9bfb5pyUOT3zjnaDdSEP",
+]
+
+[[extras]]
+title = "A Practical Guide to Async in Rust"
+url = "https://blog.logrocket.com/a-practical-guide-to-async-in-rust/"
