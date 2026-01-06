@@ -13,8 +13,16 @@ title = "Recommended Crates (blessed.rs)"
 url = "https://blessed.rs/crates"
 
 [[extras]]
+title = "Writing Good Documentation"
+url = "https://blog.guillaume-gomez.fr/articles/2020-03-12+Guide+on+how+to+write+documentation+for+a+Rust+crate"
+
+[[extras]]
 title = "Criterion.rs Documentation"
 url = "https://bheisler.github.io/criterion.rs/book/"
+
+[[extras]]
+title = "The Cargo Book"
+url = "https://doc.rust-lang.org/cargo/index.html"
 
 [[extras]]
 title = "The rustup Book"
