@@ -1,0 +1,37 @@
+title = "Closures and Iterators"
+slides = "08_closures_iterators"
+rustlings = ["iterators"]
+book_chapters = ["ch13-00-functional-features", "ch14-00-more-about-cargo"]
+
+[[videos]]
+title = "The Rust Programming Language Book"
+items = [
+    "https://www.youtube.com/watch?v=kZXJvLfjUS4&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=4GcKrj4By8k&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=rb63xJEjaZU&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+]
+
+[[videos]]
+title = "Crust of Rust"
+items = [
+    "https://www.youtube.com/watch?v=yozQ9C69pNs&list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa",
+    "https://www.youtube.com/watch?v=dHkzSZnYXmk&list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa",
+]
+
+[[videos]]
+title = "Idiomatic Rust"
+items = [
+    "https://www.youtube.com/watch?v=xAkcLcYuuWg&list=PLai5B987bZ9A5MO1oY8uihDWFC5DsdJZq",
+]
+
+[homework]
+name = "IterLab"
+slug = "iterlab"
+
+[[extras]]
+title = "Rust Iterator Optimization"
+url = "https://ntietz.com/blog/rusts-iterators-optimize-footgun/"
+
+[[extras]]
+title = "Iterator Cheat Sheet"
+url = "https://danielkeep.github.io/itercheat_baked.html"

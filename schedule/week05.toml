@@ -1,0 +1,35 @@
+title = "Error Handling and Traits"
+slides = "05_errors_traits"
+rustlings = ["options", "error_handling", "traits"]
+book_chapters = ["ch09-00-error-handling", "ch10-02-traits"]
+
+[[videos]]
+title = "The Rust Programming Language Book"
+items = [
+    "https://www.youtube.com/watch?v=wM6o70NAWUI&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=T0Xfltu4h3A&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+]
+
+[[videos]]
+title = "Code to the Moon"
+items = [
+    "https://www.youtube.com/watch?v=f82wn-1DPas&list=PL2q9pua8FpiUiCv6KmWWhR5Bh8GfElo98",
+]
+
+[[videos]]
+title = "Low Level Learning Rust Talks"
+items = [
+    "https://www.youtube.com/watch?v=nVu4qrNzyqk&list=PLc7W4b0WHTAUAEAguiqpNa5H0QqXJIJI6",
+]
+
+[homework]
+name = "PokerLab"
+slug = "pokerlab"
+
+[homework_ec]
+name = "SummaryLab"
+slug = "summarylab"
+
+[[extras]]
+title = "Rust Error Handling"
+url = "https://www.sheshbabu.com/posts/rust-error-handling/"

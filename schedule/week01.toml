@@ -1,0 +1,24 @@
+title = "Introduction"
+slides = "01_introduction"
+rustlings = ["variables", "functions", "if", "primitive_types"]
+book_chapters = [
+    "ch01-00-getting-started",
+    "ch02-00-guessing-game-tutorial",
+    "ch03-00-common-programming-concepts",
+]
+
+[[videos]]
+title = "The Rust Programming Language Book"
+items = [
+    "https://www.youtube.com/watch?v=OX9HJsJUDxA&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=H0xBSbnQYds&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=2V0JaMVjzws&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+]
+
+[[videos]]
+title = "Connor's Lectures"
+items = ["https://www.youtube.com/watch?v=RXvAC34mcw0"]
+
+[homework]
+name = "PrimerLab"
+slug = "primerlab"

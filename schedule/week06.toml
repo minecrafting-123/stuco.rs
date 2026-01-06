@@ -1,0 +1,40 @@
+title = "Modules and Testing"
+slides = "06_modules_testing"
+rustlings = ["modules", "tests"]
+book_chapters = [
+    "ch07-00-managing-growing-projects-with-packages-crates-and-modules",
+    "ch11-00-testing",
+    "ch12-00-an-io-project",
+]
+
+[[videos]]
+title = "The Rust Programming Language Book"
+items = [
+    "https://www.youtube.com/watch?v=5RPXgDQrjio&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=18-7NoNPO30&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=-L4nKAlmH3M&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=XYkiwsplDTg&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=AABHxixn6Cw&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+]
+
+[[videos]]
+title = "Code to the Moon"
+items = [
+    "https://www.youtube.com/watch?v=8N_-d0idz3I&list=PL2q9pua8FpiUiCv6KmWWhR5Bh8GfElo98",
+    "https://www.youtube.com/watch?v=8XaVlL3lObQ&list=PL2q9pua8FpiUiCv6KmWWhR5Bh8GfElo98",
+    "https://www.youtube.com/watch?v=fD9ptABVQbI&list=PL2q9pua8FpiUiCv6KmWWhR5Bh8GfElo98",
+]
+
+[[videos]]
+title = "No Boilerplate Rust Talks"
+items = [
+    "https://www.youtube.com/watch?v=JIvKgSyvtxI&list=PLZaoyhMXgBzoM9bfb5pyUOT3zjnaDdSEP",
+]
+
+[homework]
+name = "GrepLab"
+slug = "greplab"
+
+[[extras]]
+title = "Rust's Module System"
+url = "https://www.sheshbabu.com/posts/rust-module-system/"

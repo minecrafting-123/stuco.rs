@@ -1,0 +1,31 @@
+title = "Collections and Generics"
+slides = "04_collections_generics"
+rustlings = ["vecs", "strings", "hashmaps", "generics"]
+book_chapters = ["ch08-00-common-collections", "ch10-01-syntax"]
+
+[[videos]]
+title = "The Rust Programming Language Book"
+items = [
+    "https://www.youtube.com/watch?v=Zs-pS-egQSs&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=6rcTSxPJ6Bw&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+]
+
+[[videos]]
+title = "Crust of Rust"
+items = [
+    "https://www.youtube.com/watch?v=EF3Z4jdD1EQ&list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa",
+]
+
+[[videos]]
+title = "Idiomatic Rust"
+items = [
+    "https://www.youtube.com/watch?v=eEDKc7u4uwg&list=PLai5B987bZ9A5MO1oY8uihDWFC5DsdJZq",
+]
+
+[homework]
+name = "MultiLab"
+slug = "multilab"
+
+[[extras]]
+title = "String Conversion Cheat Sheet"
+url = "https://cheats.rs/#string-conversions"

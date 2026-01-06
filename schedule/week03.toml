@@ -1,0 +1,21 @@
+title = "Structs and Enums"
+slides = "03_structs_enums"
+rustlings = ["structs", "enums"]
+book_chapters = ["ch05-00-structs", "ch06-00-enums"]
+
+[[videos]]
+title = "The Rust Programming Language Book"
+items = [
+    "https://www.youtube.com/watch?v=n3bPhdiJm9I&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=DSZqIJhkNCM&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+]
+
+[[videos]]
+title = "Code to the Moon"
+items = [
+    "https://www.youtube.com/watch?v=lT3BH0m_MMY&list=PL2q9pua8FpiUiCv6KmWWhR5Bh8GfElo98",
+]
+
+[homework]
+name = "CardLab"
+slug = "cardlab"

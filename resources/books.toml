@@ -59,16 +59,27 @@ description = "Documentation for Rust's package manager and build system"
 official = true
 
 [[resources]]
-title = "The Rustc Book"
+title = "The rustc Book"
 url = "https://doc.rust-lang.org/rustc/index.html"
 description = "Guide to using the Rust compiler directly"
 official = true
 
 [[resources]]
-title = "The Rustdoc Book"
+title = "The rustdoc Book"
 url = "https://doc.rust-lang.org/rustdoc/index.html"
 description = "Guide to generating documentation for Rust projects"
 official = true
+
+[[resources]]
+title = "The rustup Book"
+url = "https://rust-lang.github.io/rustup/index.html"
+description = "Guide to managing Rust versions and toolchains"
+official = true
+
+[[resources]]
+title = "Criterion.rs Documentation"
+url = "https://bheisler.github.io/criterion.rs/book/"
+description = "Guide to using Criterion.rs for benchmarking Rust code"
 
 [[resources]]
 title = "Learn Rust with Too Many Linked Lists"

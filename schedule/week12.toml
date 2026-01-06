@@ -1,0 +1,28 @@
+title = "Parallelism"
+slides = "12_parallelism"
+rustlings = ["threads"]
+book_chapters = ["ch16-00-concurrency"]
+
+[[videos]]
+title = "The Rust Programming Language Book"
+items = [
+    "https://www.youtube.com/watch?v=06WcsNPUNC8&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=FE1BkKqYCGU&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "https://www.youtube.com/watch?v=mupwF9jbVZ4&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+]
+
+[[videos]]
+title = "Crust of Rust"
+items = [
+    "https://www.youtube.com/watch?v=b4mS5UPHh20&list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa",
+    "https://www.youtube.com/watch?v=rMGWeSjctlY&list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa",
+    "https://www.youtube.com/watch?v=yOezcP-XaIw&list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa",
+]
+
+[homework]
+name = "RowLab"
+slug = "rowlab"
+
+[homework_ec]
+name = "FilterLab"
+slug = "filterlab"

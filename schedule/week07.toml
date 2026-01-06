@@ -1,0 +1,21 @@
+title = "The Rust Ecosystem"
+slides = "07_ecosystem"
+
+[homework]
+name = "Ownership Quiz (Gradescope)"
+
+[[extras]]
+title = "Awesome Rust"
+url = "https://github.com/rust-unofficial/awesome-rust"
+
+[[extras]]
+title = "Recommended Crates (blessed.rs)"
+url = "https://blessed.rs/crates"
+
+[[extras]]
+title = "Criterion.rs Documentation"
+url = "https://bheisler.github.io/criterion.rs/book/"
+
+[[extras]]
+title = "The rustup Book"
+url = "https://rust-lang.github.io/rustup/index.html"

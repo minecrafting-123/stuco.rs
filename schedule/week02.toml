@@ -1,0 +1,20 @@
+title = "Ownership (Part 1)"
+slides = "02_ownership_p1"
+rustlings = ["move_semantics"]
+book_chapters = ["ch04-00-understanding-ownership"]
+
+[[videos]]
+title = "The Rust Programming Language Book"
+items = [
+    "https://www.youtube.com/watch?v=VFIOSWy93H0&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+]
+
+[[videos]]
+title = "Code to the Moon"
+items = [
+    "https://www.youtube.com/watch?v=SHxiGLa6Btc&list=PL2q9pua8FpiUiCv6KmWWhR5Bh8GfElo98",
+]
+
+[homework]
+name = "GetOwnedLab"
+slug = "getownedlab"
