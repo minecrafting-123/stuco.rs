@@ -11,7 +11,7 @@ description = "A peer-reviewed collection of articles/talks/repos which teach co
 [[resources]]
 title = "Rust Learning"
 url = "https://github.com/ctjhoa/rust-learning"
-description = "A bunch of links to blog posts, articles, videos, etc for learning Rust "
+description = "A bunch of links to blog posts, articles, videos, etc for learning Rust"
 
 [[resources]]
 title = "Awesome Rust"
