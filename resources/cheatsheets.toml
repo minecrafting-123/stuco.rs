@@ -19,12 +19,12 @@ title = "Container Cheat Sheet"
 url = "https://docs.google.com/presentation/d/1q-c7UAyrUlM-eZyTo1pd8SZ0qwA_wYxmPZVOQkoDmH4/edit#slide=id.p"
 
 [[resources]]
-title = "String Conversions"
-url = "https://docs.google.com/spreadsheets/u/1/d/19vSPL6z2d50JlyzwxariaYD6EU2QQUQqIDOGbiGQC7Y/pubhtml?gid=0&single=true"
+title = "Periodic Table of Rust Types"
+url = "https://web.archive.org/web/20240706045446/https://cosmic.mearie.org/2014/01/periodic-table-of-rust-types/"
 
 [[resources]]
-title = "Periodic Table of Rust Types"
-url = "https://cosmic.mearie.org/2014/01/periodic-table-of-rust-types/"
+title = "Elements of Rust"
+url = "https://rustcurious.com/elements/"
 
 [[resources]]
 title = "Compiler Error Index"
