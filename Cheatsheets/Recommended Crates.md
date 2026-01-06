@@ -1,0 +1,1 @@
+https://blessed.rs/crates
