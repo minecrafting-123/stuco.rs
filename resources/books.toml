@@ -1,0 +1,126 @@
+[[resources]]
+title = "The Rust Programming Language"
+url = "https://doc.rust-lang.org/book/"
+description = "The official introductory book for learning Rust from scratch"
+official = true
+
+[[resources]]
+title = "Rust by Example"
+url = "https://doc.rust-lang.org/rust-by-example/"
+description = "Learn Rust through runnable code examples"
+official = true
+
+[[resources]]
+title = "The Rust Reference"
+url = "https://doc.rust-lang.org/reference/introduction.html"
+description = "Technical specification of Rust syntax and semantics"
+official = true
+
+[[resources]]
+title = "The Rustonomicon"
+url = "https://doc.rust-lang.org/nomicon/"
+description = "Guide to writing unsafe Rust code"
+official = true
+
+[[resources]]
+title = "The Embedded Rust Book"
+url = "https://docs.rust-embedded.org/book/"
+description = "Introduction to bare-metal embedded programming with Rust"
+official = true
+
+[[resources]]
+title = "The wasm-bindgen Guide"
+url = "https://wasm-bindgen.github.io/wasm-bindgen/"
+description = "Facilitating high-level interactions between Rust/Wasm and JavaScript"
+official = true
+
+[[resources]]
+title = "Rust API Guidelines"
+url = "https://rust-lang.github.io/api-guidelines/"
+description = "Recommendations for designing idiomatic and interoperable Rust APIs"
+official = true
+
+[[resources]]
+title = "The Unstable Book"
+url = "https://doc.rust-lang.org/nightly/unstable-book/"
+description = "Documentation for nightly-only feature flags"
+official = true
+
+[[resources]]
+title = "The Edition Guide"
+url = "https://doc.rust-lang.org/edition-guide/introduction.html"
+description = "Guide to Rust editions and migrating between them"
+official = true
+
+[[resources]]
+title = "The Cargo Book"
+url = "https://doc.rust-lang.org/cargo/index.html"
+description = "Documentation for Rust's package manager and build system"
+official = true
+
+[[resources]]
+title = "The Rustc Book"
+url = "https://doc.rust-lang.org/rustc/index.html"
+description = "Guide to using the Rust compiler directly"
+official = true
+
+[[resources]]
+title = "The Rustdoc Book"
+url = "https://doc.rust-lang.org/rustdoc/index.html"
+description = "Guide to generating documentation for Rust projects"
+official = true
+
+[[resources]]
+title = "Learn Rust with Too Many Linked Lists"
+url = "https://rust-unofficial.github.io/too-many-lists/"
+description = "Learn Rust concepts by implementing various linked list data structures"
+
+[[resources]]
+title = "Rust Design Patterns"
+url = "https://rust-unofficial.github.io/patterns/"
+description = "Idioms, design patterns, and anti-patterns for Rust"
+
+[[resources]]
+title = "The Rust Performance Book"
+url = "https://nnethercote.github.io/perf-book/"
+description = "Techniques for improving Rust program performance"
+
+[[resources]]
+title = "Learning Rust"
+url = "https://learning-rust.github.io/"
+description = "Rust programming language tutorials for everyone"
+
+[[resources]]
+title = "Rust Cookbook"
+url = "https://rust-lang-nursery.github.io/rust-cookbook/"
+description = "Examples for common programming tasks using popular crates"
+
+[[resources]]
+title = "Command Line Applications in Rust"
+url = "https://rust-cli.github.io/book/index.html"
+description = "Guide to building CLI tools in Rust"
+
+[[resources]]
+title = "High Assurance Rust"
+url = "https://highassurance.rs/"
+description = "Building secure and robust software with systems programming and security focus"
+
+[[resources]]
+title = "Little Book of Rust Macros"
+url = "https://veykril.github.io/tlborm/"
+description = "Comprehensive guide to declarative and procedural macros"
+
+[[resources]]
+title = "A Gentle Introduction to Rust"
+url = "https://stevedonovan.github.io/rust-gentle-intro/"
+description = "Practical introduction to get started reading and writing Rust"
+
+[[resources]]
+title = "Ferrous Systems' Rust Training"
+url = "https://rust-training.ferrous-systems.com/latest/slides/"
+description = "Open-source training slides from fundamentals to async and bare-metal"
+
+[[resources]]
+title = "Guide to Rustc Development"
+url = "https://rustc-dev-guide.rust-lang.org/"
+description = "Documentation for contributing to the Rust compiler"

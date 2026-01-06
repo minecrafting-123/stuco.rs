@@ -1,0 +1,40 @@
+[[resources]]
+title = "Rust Language Cheat Sheet"
+url = "https://cheats.rs/"
+
+[[resources]]
+title = "Let's Get Rusty Cheat Sheet"
+url = "https://letsgetrusty.com/cheat-sheet-download-2.0"
+
+[[resources]]
+title = "Iterator Cheat Sheet"
+url = "https://danielkeep.github.io/itercheat_baked.html"
+
+[[resources]]
+title = "Rust Memory Containers"
+url = "https://github.com/usagi/rust-memory-container-cs"
+
+[[resources]]
+title = "Container Cheat Sheet"
+url = "https://docs.google.com/presentation/d/1q-c7UAyrUlM-eZyTo1pd8SZ0qwA_wYxmPZVOQkoDmH4/edit#slide=id.p"
+
+[[resources]]
+title = "String Conversions"
+url = "https://docs.google.com/spreadsheets/u/1/d/19vSPL6z2d50JlyzwxariaYD6EU2QQUQqIDOGbiGQC7Y/pubhtml?gid=0&single=true"
+
+[[resources]]
+title = "Periodic Table of Rust Types"
+url = "https://cosmic.mearie.org/2014/01/periodic-table-of-rust-types/"
+
+[[resources]]
+title = "Compiler Error Index"
+url = "https://doc.rust-lang.org/error-index.html"
+official = true
+
+[[resources]]
+title = "Recommended Crates (blessed.rs)"
+url = "https://blessed.rs/crates"
+
+[[resources]]
+title = "Upsuper Cheat Sheet"
+url = "https://upsuper.github.io/rust-cheatsheet/?dark,large,single"

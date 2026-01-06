@@ -1,1 +1,0 @@
-https://cosmic.mearie.org/2014/01/periodic-table-of-rust-types/

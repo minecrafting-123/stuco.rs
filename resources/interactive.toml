@@ -1,0 +1,31 @@
+[[resources]]
+title = "Rustlings"
+url = "https://github.com/rust-lang/rustlings/"
+description = "Small exercises to get you used to reading and writing Rust"
+
+[[resources]]
+title = "Interactive Rust Book"
+url = "https://rust-book.cs.brown.edu/"
+description = "Brown University's interactive version of The Rust Book"
+
+[[resources]]
+title = "Tour of Rust"
+url = "https://tourofrust.com/index.html"
+
+[[resources]]
+title = "Rust Playground"
+url = "https://play.rust-lang.org/"
+
+[[resources]]
+title = "Compiler Explorer"
+url = "https://godbolt.org/"
+description = "See assembly output of Rust code"
+
+[[resources]]
+title = "Procedural Macros Workshop"
+url = "https://github.com/dtolnay/proc-macro-workshop"
+author = "dtolnay"
+
+[[resources]]
+title = "Algorithms in Rust"
+url = "https://github.com/TheAlgorithms/Rust"

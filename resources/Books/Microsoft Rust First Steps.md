@@ -1,1 +1,0 @@
-https://learn.microsoft.com/en-gb/training/paths/rust-first-steps/

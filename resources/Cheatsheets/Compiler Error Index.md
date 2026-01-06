@@ -1,1 +1,0 @@
-https://doc.rust-lang.org/error-index.html

@@ -1,0 +1,47 @@
+[[resources]]
+title = "Crust of Rust"
+url = "https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa"
+description = "Intermediate Rust concepts through real examples and re-implementing std library code"
+author = "Jon Gjengset"
+
+[[resources]]
+title = "Rust Lang Book (Video)"
+url = "https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8"
+description = "Video series covering The Rust Programming Language book chapter by chapter"
+author = "Let's Get Rusty"
+
+[[resources]]
+title = "Idiomatic Rust"
+url = "https://www.youtube.com/playlist?list=PLai5B987bZ9A5MO1oY8uihDWFC5DsdJZq"
+description = "Tips for writing cleaner Rust code using constructors, builders, iterators, and more"
+author = "Let's Get Rusty"
+
+[[resources]]
+title = "Memory Management"
+url = "https://www.youtube.com/playlist?list=PLai5B987bZ9BnS7dBlTF9HRop55vYUL7r"
+description = "Deep dive into ownership, borrowing, lifetimes, and smart pointers"
+author = "Let's Get Rusty"
+
+[[resources]]
+title = "No Boilerplate Rust Talks"
+url = "https://www.youtube.com/playlist?list=PLZaoyhMXgBzoM9bfb5pyUOT3zjnaDdSEP"
+description = "Fast-paced technical talks on Rust, watchable in any order"
+author = "No Boilerplate"
+
+[[resources]]
+title = "Low Level Learning Rust Talks"
+url = "https://www.youtube.com/playlist?list=PLc7W4b0WHTAUAEAguiqpNa5H0QqXJIJI6"
+description = "Rust explained from a low-level systems programming perspective"
+author = "Low Level Learning"
+
+[[resources]]
+title = "Code to the Moon"
+url = "https://www.youtube.com/playlist?list=PL2q9pua8FpiUiCv6KmWWhR5Bh8GfElo98"
+description = "Rust for web development, WASM, full-stack apps, and LLMs"
+author = "Code to the Moon"
+
+[[resources]]
+title = "Learn Rust with Gitoxide"
+url = "https://www.youtube.com/playlist?list=PLMHbQxe1e9Mk5kOHrm9v20-umkE2ck_gE"
+description = "Learn Rust by contributing to a pure Rust Git implementation"
+author = "Byron's Devlog"

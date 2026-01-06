@@ -1,0 +1,83 @@
+[[resources]]
+title = "A Half Hour to Learn Rust"
+url = "https://fasterthanli.me/articles/a-half-hour-to-learn-rust"
+description = "Whirlwind tour of Rust syntax through annotated code snippets"
+author = "fasterthanlime"
+
+[[resources]]
+title = "Small Strings in Rust"
+url = "https://fasterthanli.me/articles/small-strings-in-rust"
+description = "Comparing smol_str and smartstring for reducing heap allocations"
+author = "fasterthanlime"
+
+[[resources]]
+title = "Rust Error Handling"
+url = "https://www.sheshbabu.com/posts/rust-error-handling/"
+description = "Beginner's guide to Result, the ? operator, and custom error types"
+author = "Shesh"
+
+[[resources]]
+title = "Rust for JavaScript Developers"
+url = "https://www.sheshbabu.com/posts/rust-for-javascript-developers-tooling-ecosystem-overview/"
+description = "Introduction to Rust tooling by comparison with the JavaScript ecosystem"
+author = "Shesh"
+
+[[resources]]
+title = "Rust's Module System"
+url = "https://www.sheshbabu.com/posts/rust-module-system/"
+description = "Clear explanation of mod, pub, and use with practical examples"
+author = "Shesh"
+
+[[resources]]
+title = "Writing an OS in Rust"
+url = "https://os.phil-opp.com/"
+description = "Tutorial series building an operating system kernel from scratch"
+author = "Philipp Oppermann"
+
+[[resources]]
+title = "A Practical Guide to Async in Rust"
+url = "https://blog.logrocket.com/a-practical-guide-to-async-in-rust/"
+description = "Getting started with async runtimes, spawning futures, and handling blocking tasks"
+author = "Carl Fredrik Samson"
+
+[[resources]]
+title = "Let's Build a Parser"
+url = "https://codeandbitters.com/lets-build-a-parser/"
+description = "Building a JSON parser step-by-step using the nom crate"
+author = "code and bitters"
+
+[[resources]]
+title = "Tips for Faster Compile Times"
+url = "https://endler.dev/2020/rust-compile-times/"
+description = "Comprehensive collection of techniques to speed up Rust compilation"
+author = "corrode"
+
+[[resources]]
+title = "No-RAII Rust (Hard Mode Rust)"
+url = "https://matklad.github.io/2022/10/06/hard-mode-rust.html"
+description = "Building a ray tracer with no dynamic allocation using only injected memory"
+author = "matklad"
+
+[[resources]]
+title = "Rust Iterator Optimization"
+url = "https://ntietz.com/blog/rusts-iterators-optimize-footgun/"
+description = "How lazy iterators compose and the parallelization footgun they create"
+author = "Nicole Tietz-Sokolskaya"
+
+[[resources]]
+title = "Writing Good Documentation"
+url = "https://blog.guillaume-gomez.fr/articles/2020-03-12+Guide+on+how+to+write+documentation+for+a+Rust+crate"
+description = "Guide to documenting Rust crates with doc comments, examples, and lints"
+author = "Guillaume Gomez"
+
+[[resources]]
+title = "Creating Procedural-Macro Crates"
+url = "https://ferrous-systems.com/blog/testing-proc-macros/"
+description = "Structuring, testing, and debugging procedural macros with unit and compile-fail tests"
+author = "Ferrous Systems"
+
+[[resources]]
+title = "Rust Verification Tools"
+url = "https://alastairreid.github.io/rust-verification-tools/"
+description = "Survey of formal verification tools for Rust including symbolic execution and static checkers"
+author = "Alastair Reid"

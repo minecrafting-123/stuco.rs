@@ -1,0 +1,19 @@
+[[resources]]
+title = "Little Book of Rust Books"
+url = "https://lborb.github.io/book/"
+description = "A collection of Rust books"
+
+[[resources]]
+title = "Idiomatic Rust"
+url = "https://github.com/mre/idiomatic-rust"
+description = "A peer-reviewed collection of articles/talks/repos which teach concise, idiomatic Rust"
+
+[[resources]]
+title = "Rust Learning"
+url = "https://github.com/ctjhoa/rust-learning"
+description = "A bunch of links to blog posts, articles, videos, etc for learning Rust "
+
+[[resources]]
+title = "Awesome Rust"
+url = "https://github.com/rust-unofficial/awesome-rust"
+description = " A curated list of Rust code and resources"

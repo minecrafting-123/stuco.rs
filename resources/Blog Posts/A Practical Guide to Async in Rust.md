@@ -1,1 +1,0 @@
-https://blog.logrocket.com/a-practical-guide-to-async-in-rust/
