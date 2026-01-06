@@ -1,18 +1,18 @@
 # Gradescope Autograder Guide
 
-This document details how to use the autograders in this `homeworks` repository.
+This document details how to use the autograders in the `homeworks` directory.
 
-# Create
+## Create
 
-Do you best to follow along the code for the existing autograders, and you can probably figure out
+Do your best to follow along the code for the existing autograders, and you can probably figure out
 how they work. If you have a question, your best bet is to probably just contact
 [Connor Tsui](mailto:connortsui20@gmail.com) directly.
 
-# Build
+## Build
 
 Run this command to build a specific autograder, replacing the docker name and the autograder name:
 
-Make sure 
+Make sure
 
 ```sh
 docker buildx build --platform=linux/amd64 -t <container-name> <path-to-autograder>
@@ -26,7 +26,7 @@ docker buildx build --platform=linux/amd64 -t connortsui/cardlab_autograder week
 
 _You can also omit the `buildx` command, but that is being deprecated soon._
 
-# Local Run
+## Run Locally
 
 To run the autograder locally, you have to first create a local `submission` folder. This
 represents the files that a student submits to Gradescope. For most of the homeworks, this just
@@ -70,7 +70,7 @@ docker run \
 
 Once it has finished running, you can find the output in `<path-to-results-folder>/results.json`.
 
-# Publish
+## Publish
 
 To publish the container, run this command (replacing the name with the correct container name):
 

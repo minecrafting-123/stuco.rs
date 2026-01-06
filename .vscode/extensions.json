@@ -4,6 +4,7 @@
         "dioxuslabs.dioxus",
         "bradlc.vscode-tailwindcss",
         "myriad-dreamin.tinymist",
-        "tamasfe.even-better-toml"
+        "tamasfe.even-better-toml",
+        "davidanson.vscode-markdownlint"
     ]
 }

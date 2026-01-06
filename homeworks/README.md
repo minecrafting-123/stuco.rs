@@ -3,14 +3,14 @@
 _All homeworks are due the week after they are assigned, unless you use late days._
 _You have 7 late days to use whenever you need._
 
-# Homeworks
+## Homeworks
 
 We've' tried to calibrate each of the homeworks to take around an hour.
 If you find yourself spending much more than an hour on these, please let us know!
 This is the first time these assignments have been handed out,
 and we are very open to feedback regarding the length and difficulty.
 
-# Setup
+## Setup
 
 Make sure you have Rust installed. You should have installed Rust through `rustup`. To confirm, run:
 
@@ -37,7 +37,7 @@ Documenting primerlab v0.1.0 (<path>/primerlab)
 
 Either way, a version of this writeup will be up on our website!
 
-# Submission
+## Submission
 
 ### Formatting and Style
 
@@ -78,7 +78,7 @@ Gradescope.
 
 Note that you don't _need_ to name it `handin.zip`, you can name it whatever you'd like.
 
-# Collaboration
+## Collaboration
 
 In general, feel free to discuss homeworks with other students! As long as you do not copy someone
 else's work, any communication is fair game.
@@ -88,7 +88,7 @@ see your questions and answers as well!
 
 You can also discuss on Discord, but try to keep any technical questions on Piazza.
 
-# Feedback
+## Feedback
 
 We would like to reiterate that you should let us know if you spent anywhere in significant excess
 of an hour on this homework.
