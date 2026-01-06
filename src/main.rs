@@ -4,7 +4,7 @@ mod pages;
 use dioxus::prelude::*;
 
 use components::Navbar;
-use pages::{About, Home, Schedule};
+use pages::{About, Home, Resources, Schedule};
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
 const FAVICON_16: Asset = asset!("/assets/favicon-16x16.png");
@@ -21,6 +21,8 @@ pub enum Route {
         Home {},
         #[route("/about")]
         About {},
+        #[route("/resources")]
+        Resources {},
         #[route("/schedule")]
         Schedule {},
 }
