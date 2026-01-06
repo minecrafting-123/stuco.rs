@@ -105,7 +105,16 @@ python3 render_slides.py --force
   - Unit Tests
   - Integration Tests
 
-## Week 7: Crates, Closures, and Iterators
+## Week 7: Ecosystem
+
+- The Rust Toolchain: `rustup`, `clippy`, `rustfmt`
+- Performance and Analysis: Criterion, Flamegraphs
+- Reading Documentation
+  - `rand`
+  - `time` vs `chrono`
+  - `anyhow` vs `thiserror`
+
+## Week 8: Crates, Closures, and Iterators
 
 - `no_std`: `rand`, `time`
 - `std`: `clap`, `log`, `tracing`, `anyhow`, `flamegraph`
@@ -124,7 +133,17 @@ python3 render_slides.py --force
   - `serde`
   - `criterion`
 
-## Week 8: Lifetimes
+## Week 9: Ownership Part 2
+
+- Stack and Heap
+- `Box<T>`
+- Vector Pop
+- Vector Push
+- Permissions of Places
+  - References Remove Permissions of Places
+- Immutable and Mutable References
+
+## Week 10: Lifetimes
 
 - Validating References
 - The Borrow Checker
@@ -135,21 +154,23 @@ python3 render_slides.py --force
 - Lifetime Elision
 - `'static` Lifetimes
 
-## Week 9: `Box<T>` and Trait Objects
+## Week 11: Smart Pointers and Trait Objects
 
-- The `Box<T>` Type
-- The `Deref` Trait and Deref Coercion
-- The `Drop` Trait and `std::mem::drop`
+- Smart Pointers
+  - `Box<T>`
+  - The `Deref` trait and Deref Coercion
+  - The `Drop` trait and `std::mem::drop`
+  - `Rc<T>`
+  - The `Rc<T>` type
+  - The `RefCell<T>` type
 - Object-Oriented Programming
 - Trait Objects
   - Dynamic dispatch with `dyn`
 - Dynamically Sized Types
 - Object Safety
 
-## Week 10: Smart Pointers and `unsafe`
+## Week 12: `unsafe`
 
-- The `Rc<T>` Type
-- The `RefCell<T>` Type
 - Memory Leaks
 - Unsafe Superpowers
 - Raw Pointers
@@ -164,7 +185,7 @@ python3 render_slides.py --force
   - `RefCell<T>`
   - `Rc<T>`
 
-## Week 11: Parallelism
+## Week 13: Parallelism
 
 - The `Arc<T>` Smart Pointer
 - The `Mutex<T>` Smart Pointer
@@ -181,16 +202,9 @@ python3 render_slides.py --force
   - `Arc<T>`
   - `Mutex<T>`
 
-## Week 12: Concurrency
+## Week 14: Concurrency
 
 - `async`
 - `await`
 - The `Pin<T>` Type
-- TODO
-
-## Week 13: Macros
-
-- Declarative Macros
-  - `macro_rules!`
-- Procedural Macros
 - TODO
