@@ -3,6 +3,7 @@
         "rust-lang.rust-analyzer",
         "dioxuslabs.dioxus",
         "bradlc.vscode-tailwindcss",
-        "myriad-dreamin.tinymist"
+        "myriad-dreamin.tinymist",
+        "tamasfe.even-better-toml"
     ]
 }
