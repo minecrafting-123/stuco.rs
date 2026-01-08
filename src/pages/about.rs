@@ -26,7 +26,7 @@ const PREVIOUS_SEMESTERS: &[Semester] = &[
     Semester {
         name: "S25",
         instructors: &[("Connor Tsui", None), ("Jessica Ruan", None)],
-        tas: &[],
+        tas: &[("Fiona Fisher", None), ("Terrance Chen", None)],
     },
     Semester {
         name: "F24",

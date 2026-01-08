@@ -5,7 +5,6 @@ use std::sync::LazyLock;
 // Update this as the semester goes
 const LAST_WEEK_SHOWN: usize = 0;
 
-
 static WEEKS: LazyLock<Vec<Week>> = LazyLock::new(load_weeks);
 
 fn video_color(title: &str) -> (&'static str, &'static str, &'static str) {
