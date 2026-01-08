@@ -2,6 +2,10 @@ use crate::pages::schedule::data::{Homework, Week, load_weeks};
 use dioxus::prelude::*;
 use std::sync::LazyLock;
 
+// Update this as the semester goes
+const LAST_WEEK_SHOWN: usize = 0;
+
+
 static WEEKS: LazyLock<Vec<Week>> = LazyLock::new(load_weeks);
 
 fn video_color(title: &str) -> (&'static str, &'static str, &'static str) {
@@ -109,16 +113,20 @@ fn WeekRow(week_num: usize, week: &'static Week) -> Element {
                 }
             }
             td { class: "p-2 align-top",
-                SlideLinks { slides: &week.slides }
+                if week_num <= LAST_WEEK_SHOWN {
+                    SlideLinks { slides: &week.slides }
+                }
             }
             td { class: "p-2 align-top",
-                if let Some(hw) = &week.homework {
-                    HomeworkLinks { homework: hw }
-                }
-                if let Some(hw_ec) = &week.homework_ec {
-                    div { class: "mt-1",
-                        span { class: "text-secondary text-sm", "EC: " }
-                        HomeworkLinks { homework: hw_ec }
+                if week_num <= LAST_WEEK_SHOWN {
+                    if let Some(hw) = &week.homework {
+                        HomeworkLinks { homework: hw }
+                    }
+                    if let Some(hw_ec) = &week.homework_ec {
+                        div { class: "mt-1",
+                            span { class: "text-secondary text-sm", "EC: " }
+                            HomeworkLinks { homework: hw_ec }
+                        }
                     }
                 }
             }
