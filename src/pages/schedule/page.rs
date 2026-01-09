@@ -63,16 +63,16 @@ fn WeekRow(week_num: usize, week: &'static Week) -> Element {
         } else {
             // Check if we should open upward
             spawn(async move {
-                if let Some(mounted) = button_ref() {
-                    if let Ok(rect) = mounted.get_client_rect().await {
-                        let viewport_height = web_sys::window()
-                            .and_then(|w| w.inner_height().ok())
-                            .and_then(|h| h.as_f64())
-                            .unwrap_or(800.0);
+                if let Some(mounted) = button_ref()
+                    && let Ok(rect) = mounted.get_client_rect().await
+                {
+                    let viewport_height = web_sys::window()
+                        .and_then(|w| w.inner_height().ok())
+                        .and_then(|h| h.as_f64())
+                        .unwrap_or(800.0);
 
-                        // If button is in bottom 40% of viewport, open upward
-                        open_upward.set(rect.origin.y > viewport_height * 0.6);
-                    }
+                    // If button is in bottom 40% of viewport, open upward
+                    open_upward.set(rect.origin.y > viewport_height * 0.6);
                 }
                 expanded.set(true);
             });
@@ -285,20 +285,19 @@ fn rustling_order(name: &str) -> usize {
 
 #[component]
 fn SlideLinks(slides: &'static str) -> Element {
-    let base = "https://raw.githubusercontent.com/rust-stuco/lectures/main";
     let name = slides.split('_').skip(1).collect::<Vec<_>>().join("_");
 
     rsx! {
         div { class: "flex gap-2 text-sm",
             a {
                 class: "text-primary hover:underline",
-                href: "{base}/{slides}/{name}-light.pdf",
+                href: "/lectures/{slides}/{name}-light.pdf",
                 "light"
             }
             span { class: "text-secondary", "/" }
             a {
                 class: "text-primary hover:underline",
-                href: "{base}/{slides}/{name}-dark.pdf",
+                href: "/lectures/{slides}/{name}-dark.pdf",
                 "dark"
             }
         }

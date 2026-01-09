@@ -5,6 +5,7 @@
         "bradlc.vscode-tailwindcss",
         "myriad-dreamin.tinymist",
         "tamasfe.even-better-toml",
-        "davidanson.vscode-markdownlint"
+        "davidanson.vscode-markdownlint",
+        "marp-team.marp-vscode"
     ]
 }

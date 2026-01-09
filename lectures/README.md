@@ -1,10 +1,10 @@
-# Rust StuCo F25 Outline
+# Rust StuCo S26 Outline
 
-_Each lecture is 50 minutes on Tuesdays from 7:00-7:50pm._ On some weeks, we might have extra content planned for after lecture under **After Dark**, but we'll only do it if people want to stay and hang out since it won't be required material.
+_Each lecture is 50 minutes on Wednesdays from 7:00-7:50pm._ On some weeks, we might have extra content planned for after lecture under **After Dark**, but we'll only do it if people want to stay and hang out since it won't be required material.
 
-</br>
+The lecture slides are organized in directories with the format `NN_topic_name` (e.g., `01_introduction`, `02_ownership_p1`).
 
-# Course Materials:
+## Course Materials
 
 - Main Source: [The Rust Programming Language (The Rust Book)](https://doc.rust-lang.org/book/)
   - The Rust Lang Book [in video format](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) on YouTube
@@ -15,34 +15,9 @@ _Each lecture is 50 minutes on Tuesdays from 7:00-7:50pm._ On some weeks, we mig
 - [Exercism](https://exercism.org/tracks/rust)
 - [`rustlings`](https://github.com/rust-lang/rustlings)
 
-</br>
+## **Schedule**
 
-# Render Slides
-
-The lecture slides are organized in directories with the format `NN_topic_name` (e.g., `01_introduction`, `02_ownership_p1`).
-
-To render slides:
-
-```bash
-# Render all slides
-python3 render_slides.py --all
-
-# Render only modified slides (default behavior)
-python3 render_slides.py
-
-# Render specific topics by name
-python3 render_slides.py --topics introduction ownership_p1
-
-# Preview what would be rendered without actually rendering
-python3 render_slides.py --dry-run --all
-
-# Force render all slides
-python3 render_slides.py --force
-```
-
-# **Schedule**
-
-## Week 1: Introduction
+### Week 1: Introduction
 
 - Why Rust?
 - `cargo` basics
@@ -54,12 +29,12 @@ python3 render_slides.py --force
 - Course Logistics
   - Installing Rust
 
-### After Dark
+#### After Dark
 
 - Setting up rust-analyzer
 - RustRover
 
-## Week 2: Ownership
+### Week 2: Ownership
 
 - Ownership
   - The `String` Type
@@ -68,34 +43,34 @@ python3 render_slides.py --force
 - Slices
 - The `Vec` Type
 
-## Week 3: Structs and Enums
+### Week 3: Structs and Enums
 
 - Ownership review
 - Structs
 - Enums
   - Pattern Matching
 
-## Week 4: Standard Collections and Generics
+### Week 4: Standard Collections and Generics
 
 - The `Vec<T>` Type
 - The `String` Type
 - The `HashMap<K, V>` Type
 - Generics
 
-### After Dark
+#### After Dark
 
 - Remaining collections in `std::collections`
 
-## Week 5: Error Handling and Traits
+### Week 5: Error Handling and Traits
 
 - Error Handling
 - Traits
 
-### After Dark
+#### After Dark
 
 - `anyhow`
 
-## Week 6: Modules and Testing
+### Week 6: Modules and Testing
 
 - Packages and Crates
 - Modules
@@ -105,7 +80,7 @@ python3 render_slides.py --force
   - Unit Tests
   - Integration Tests
 
-## Week 7: Ecosystem
+### Week 7: Ecosystem
 
 - The Rust Toolchain: `rustup`, `clippy`, `rustfmt`
 - Performance and Analysis: Criterion, Flamegraphs
@@ -114,7 +89,7 @@ python3 render_slides.py --force
   - `time` vs `chrono`
   - `anyhow` vs `thiserror`
 
-## Week 8: Crates, Closures, and Iterators
+### Week 8: Crates, Closures, and Iterators
 
 - `no_std`: `rand`, `time`
 - `std`: `clap`, `log`, `tracing`, `anyhow`, `flamegraph`
@@ -126,14 +101,14 @@ python3 render_slides.py --force
   - `Iterator` Trait and `next`
 - Loops vs. Iterators
 
-### After Dark
+#### After Dark
 
 - More Essential Rust Crates
   - `rayon`
   - `serde`
   - `criterion`
 
-## Week 9: Ownership Part 2
+### Week 9: Ownership Part 2
 
 - Stack and Heap
 - `Box<T>`
@@ -143,7 +118,7 @@ python3 render_slides.py --force
   - References Remove Permissions of Places
 - Immutable and Mutable References
 
-## Week 10: Lifetimes
+### Week 10: Lifetimes
 
 - Validating References
 - The Borrow Checker
@@ -154,7 +129,7 @@ python3 render_slides.py --force
 - Lifetime Elision
 - `'static` Lifetimes
 
-## Week 11: Smart Pointers and Trait Objects
+### Week 11: Smart Pointers and Trait Objects
 
 - Smart Pointers
   - `Box<T>`
@@ -169,14 +144,14 @@ python3 render_slides.py --force
 - Dynamically Sized Types
 - Object Safety
 
-## Week 12: `unsafe`
+### Week 12: `unsafe`
 
 - Memory Leaks
 - Unsafe Superpowers
 - Raw Pointers
 - FFI
 
-### After Dark
+#### After Dark
 
 - `Cow<'a, B>`
 - `UnsafeCell<T>` and `Cell<T>`
@@ -185,7 +160,7 @@ python3 render_slides.py --force
   - `RefCell<T>`
   - `Rc<T>`
 
-## Week 13: Parallelism
+### Week 13: Parallelism
 
 - The `Arc<T>` Smart Pointer
 - The `Mutex<T>` Smart Pointer
@@ -194,7 +169,7 @@ python3 render_slides.py --force
 - Shared State vs Channels
 - `Sync` and `Send` traits
 
-### After Dark
+#### After Dark
 
 - `Weak<T>`
 - `CondVar`
@@ -202,7 +177,7 @@ python3 render_slides.py --force
   - `Arc<T>`
   - `Mutex<T>`
 
-## Week 14: Concurrency
+### Week 14: Concurrency
 
 - `async`
 - `await`
