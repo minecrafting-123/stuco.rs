@@ -70,6 +70,12 @@ jobs:
       - name: Copy index.html to 404.html
         run: cp target/dx/stuco-rs/release/web/public/index.html target/dx/stuco-rs/release/web/public/404.html
 
+      - name: Upload syllabus artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: syllabus
+          path: target/dx/stuco-rs/release/web/public/syllabus.pdf
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
