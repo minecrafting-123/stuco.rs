@@ -5,6 +5,7 @@ pub struct Semester {
     pub name: &'static str,
     pub instructors: &'static [(&'static str, Option<&'static str>)], // (name, optional email)
     pub tas: &'static [(&'static str, Option<&'static str>)],
+    pub link: &'static str,
 }
 
 pub const CURRENT_SEMESTER: Semester = Semester {
@@ -15,6 +16,7 @@ pub const CURRENT_SEMESTER: Semester = Semester {
         ("Anish Pallati", Some("apallati@andrew.cmu.edu")),
     ],
     tas: &[("Max Wen", Some("maxwen@andrew.cmu.edu"))],
+    link: "https://stuco.rs",
 };
 
 const PREVIOUS_SEMESTERS: &[Semester] = &[
@@ -22,11 +24,13 @@ const PREVIOUS_SEMESTERS: &[Semester] = &[
         name: "F25",
         instructors: &[("Fiona Fisher", None), ("Terrance Chen", None)],
         tas: &[("Stephen Mao", None)],
+        link: "https://rust-stuco.github.io/",
     },
     Semester {
         name: "S25",
         instructors: &[("Connor Tsui", None), ("Jessica Ruan", None)],
         tas: &[("Fiona Fisher", None), ("Terrance Chen", None)],
+        link: "https://rust-stuco.github.io/old/s25/",
     },
     Semester {
         name: "F24",
@@ -36,6 +40,7 @@ const PREVIOUS_SEMESTERS: &[Semester] = &[
             ("David Rudo", None),
         ],
         tas: &[],
+        link: "https://rust-stuco.github.io/old/f24/",
     },
     Semester {
         name: "S24",
@@ -45,11 +50,13 @@ const PREVIOUS_SEMESTERS: &[Semester] = &[
             ("David Rudo", None),
         ],
         tas: &[],
+        link: "https://rust-stuco.github.io/old/s24/",
     },
     Semester {
         name: "S22, F22, and S23",
         instructors: &[("Jack Duvall", None), ("Cooper Pierce", None)],
         tas: &[],
+        link: "https://old-rust-stuco.duvallj.pw/",
     },
 ];
 
@@ -96,7 +103,7 @@ pub fn About() -> Element {
 
                         rsx! {
                             li {
-                                span { class: "text-primary", "{semester.name}" }
+                                a { class: "text-secondary", href: "{semester.link}", target: "_blank", "{semester.name}" }
                                 ": {instructors}"
                                 if !semester.tas.is_empty() {
                                     "; {ta_label}: {tas}"
