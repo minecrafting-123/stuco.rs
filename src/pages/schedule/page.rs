@@ -3,7 +3,11 @@ use dioxus::prelude::*;
 use std::sync::LazyLock;
 
 // Update this as the semester goes
-const LAST_WEEK_SHOWN: usize = 1;
+const LAST_WEEK_SHOWN: usize = if cfg!(debug_assertions) {
+    usize::MAX
+} else {
+    1
+};
 
 static WEEKS: LazyLock<Vec<Week>> = LazyLock::new(load_weeks);
 
@@ -54,8 +58,10 @@ fn WeekRow(week_num: usize, week: &'static Week) -> Element {
     let mut open_upward = use_signal(|| false);
     let mut button_ref = use_signal(|| None::<std::rc::Rc<MountedData>>);
 
-    let has_materials =
-        week.videos.is_some() || week.book_chapters.is_some() || week.rustlings.is_some();
+    let has_materials = week.videos.is_some()
+        || week.book_chapters.is_some()
+        || week.rustlings.is_some()
+        || week.extras.is_some();
 
     let handle_click = move |_| {
         if expanded() {
@@ -138,7 +144,7 @@ fn MaterialsDropdown(week: &'static Week) -> Element {
     rsx! {
         // Rustlings
         if let Some(rustlings) = &week.rustlings {
-            div { class: "space-y-1",
+            div { class: "space-y-3",
                 span { class: "text-secondary font-semibold", "Rustlings" }
                 div { class: "flex flex-wrap gap-1",
                     for exercise in rustlings {
@@ -150,7 +156,7 @@ fn MaterialsDropdown(week: &'static Week) -> Element {
 
         // Book chapters
         if let Some(chapters) = &week.book_chapters {
-            div { class: "space-y-1",
+            div { class: "space-y-3",
                 span { class: "text-secondary font-semibold", "Book Chapters" }
                 div { class: "flex flex-wrap gap-1",
                     for chapter in chapters {
@@ -162,11 +168,23 @@ fn MaterialsDropdown(week: &'static Week) -> Element {
 
         // Videos
         if let Some(videos) = &week.videos {
-            div { class: "space-y-1",
+            div { class: "space-y-3",
                 span { class: "text-secondary font-semibold", "Videos" }
                 div { class: "flex flex-wrap gap-1",
                     for group in videos {
                         VideoPills { group }
+                    }
+                }
+            }
+        }
+
+        // Extras
+        if let Some(extras) = &week.extras {
+            div { class: "space-y-3",
+                span { class: "text-secondary font-semibold", "Extras" }
+                div { class: "flex flex-wrap gap-1",
+                    for extra in extras {
+                        ExtraLink { extra }
                     }
                 }
             }
@@ -181,7 +199,7 @@ fn VideoPills(group: &'static crate::pages::schedule::data::VideoGroup) -> Eleme
     rsx! {
         for (i , url) in group.items.iter().enumerate() {
             a {
-                class: "inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium hover:brightness-110 transition-all border",
+                class: "inline-flex items-center px-2 py-0.5 rounded text-xs font-medium hover:brightness-110 transition-all border",
                 style: "background: {bg}; border-color: {border}; color: {text};",
                 href: "{url}",
                 target: "_blank",
@@ -328,6 +346,18 @@ fn HomeworkLinks(homework: &'static Homework) -> Element {
     } else {
         rsx! {
             span { "{homework.name}" }
+        }
+    }
+}
+
+#[component]
+fn ExtraLink(extra: &'static crate::pages::schedule::data::Extra) -> Element {
+    rsx! {
+        a {
+            class: "inline-flex items-center px-2 py-0.5 rounded text-xs bg-tertiary/20 hover:bg-tertiary/40 transition-colors border border-tertiary/50",
+            href: "{extra.url}",
+            target: "_blank",
+            "{extra.title}"
         }
     }
 }

@@ -10,7 +10,7 @@ pub struct Week {
     pub videos: Option<Vec<VideoGroup>>,
     pub homework: Option<Homework>,
     pub homework_ec: Option<Homework>,
-    extras: Option<Vec<Extra>>,
+    pub extras: Option<Vec<Extra>>,
 }
 
 #[derive(Debug, Deserialize, JsonSchema, PartialEq)]
@@ -26,9 +26,9 @@ pub struct Homework {
 }
 
 #[derive(Debug, Deserialize, JsonSchema, PartialEq)]
-struct Extra {
-    title: String,
-    url: String,
+pub struct Extra {
+    pub title: String,
+    pub url: String,
 }
 
 pub fn load_weeks() -> Vec<Week> {
