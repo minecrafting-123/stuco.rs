@@ -1503,7 +1503,7 @@ For future instructors: we don't start counting absences until after the drop de
 # Course Logistics: Communication
 
 * [Piazza](https://piazza.com/cmu/spring2026/98008/home)
-* [Unofficial Discord](https://discord.gg/3MpqkWsNd2)
+* [Unofficial Discord](https://discord.gg/3MpqkWsNd2) (discord.gg/3MpqkWsNd2)
 * Email
 * Talk to us!
 
