@@ -134,7 +134,6 @@ What is Rust at a more technical view?
 * No runtime overhead from the JVM or a garbage collector
 * Much lower memory use
 * Zero-cost abstractions
-* First-class support for modern paradigms
 
 
 ---
@@ -1472,7 +1471,7 @@ certain nuances that we will talk about in future weeks.
 
 # Syllabus
 
-You can find our course syllabus [here](https://rust-stuco.github.io/assets/pdf/syllabus-s25.pdf) or on our [website](https://rust-stuco.github.io/about/).
+You can find our course syllabus [here](https://stuco.rs/syllabus.pdf) or on our [website](https://stuco.rs).
 
 * There is a quiz on Gradescope worth 50 points (half a homework) that checks that you have read the entire syllabus
 * Please make sure you understand the **bolded** parts!
@@ -1503,8 +1502,8 @@ For future instructors: we don't start counting absences until after the drop de
 
 # Course Logistics: Communication
 
-* [Piazza](https://piazza.com/cmu/spring2025/98008/home)
-* [Unofficial Discord](https://discord.com/invite/nXGE2yTckU)
+* [Piazza](https://piazza.com/cmu/spring2026/98008/home)
+* [Unofficial Discord](https://discord.gg/3MpqkWsNd2) (discord.gg/3MpqkWsNd2)
 * Email
 * Talk to us!
 
@@ -1564,4 +1563,5 @@ Thanks for coming!
 
 _Slides created by:_
 Connor Tsui, Benjamin Owad, David Rudo,
-Jessica Ruan, Fiona Fisher, Terrance Chen
+Jessica Ruan, Fiona Fisher, Terrance Chen,
+Stephen Mao
