@@ -259,8 +259,72 @@ fn add_to_list(fav_items: &mut Vec<String>, item: String) {
 
 * This now works as intended!
 
+---
+
+
+# Review Question 3
+
+
+Does this compile?
+
+```rust
+fn main() {
+    let mut data = 1;
+    let r = &data;
+    read(r); 
+    println!("{}", r);
+}
+
+fn read(x: &i32) {
+    println!("{}", x);
+}```
+
 
 ---
+
+
+# Review Question 3 (Solution)
+
+Yes it compiles!
+
+Immutable references are Copy. When `r` is passed to read(), the reference is _copied_, not _moved_.
+
+---
+
+
+# Review Question 4
+
+
+Does this compile?
+
+```rust
+fn main() {
+    let mut data = 0;
+    let r = &mut data;
+    modify(r); 
+    *r += 20; 
+    println!("{}", r);
+}
+
+fn modify(x: &mut i32) {
+    *x += 10;
+}```
+
+
+---
+
+
+# Review Question 4 (Solution)
+
+Yes it compiles!
+
+Mutable references are NOT Copy. However, they are _reborrowed_.
+
+* The compiler temporarily disables the original references r.
+* `modify(r)` gets silently replaced by `modify(&mut *r)`.
+
+---
+
 
 
 # **Structs**
